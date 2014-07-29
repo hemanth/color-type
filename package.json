@@ -1,8 +1,7 @@
 {
   "name": "color-type",
   "version": "0.1.0",
-  "description": "Helper function to detect the color type/model (HEX, RGB, HSL).
-",
+  "description": "Helper function to detect the color type/model (HEX, RGB, HSL).",
   "license": "MIT",
   "repository": "hemanth/color-type",
   "author": {
