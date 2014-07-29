@@ -1,0 +1,134 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/hemanth/.nvm/v0.11.13/bin/node',
+1 verbose cli   '/Users/hemanth/.nvm/v0.11.13/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.11.13
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/hemanth/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/3g/byx6f5p51l33cpb3s2118g_h0000gn/T/npm-75161-RVpK4CCR/1406613491356-0.8310126520227641/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/3g/byx6f5p51l33cpb3s2118g_h0000gn/T/npm-75161-RVpK4CCR/1406613491356-0.8310126520227641/tmp.tgz
+12 verbose folder .
+13 info prepublish color-model@0.1.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/hemanth/.npm/1f1177db-tar.lock
+16 silly lockFile b37b714d-91356-0-8310126520227641-tmp-tgz tar:///var/folders/3g/byx6f5p51l33cpb3s2118g_h0000gn/T/npm-75161-RVpK4CCR/1406613491356-0.8310126520227641/tmp.tgz
+17 verbose lock tar:///var/folders/3g/byx6f5p51l33cpb3s2118g_h0000gn/T/npm-75161-RVpK4CCR/1406613491356-0.8310126520227641/tmp.tgz /Users/hemanth/.npm/b37b714d-91356-0-8310126520227641-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile b37b714d-91356-0-8310126520227641-tmp-tgz tar:///var/folders/3g/byx6f5p51l33cpb3s2118g_h0000gn/T/npm-75161-RVpK4CCR/1406613491356-0.8310126520227641/tmp.tgz
+21 silly lockFile b37b714d-91356-0-8310126520227641-tmp-tgz tar:///var/folders/3g/byx6f5p51l33cpb3s2118g_h0000gn/T/npm-75161-RVpK4CCR/1406613491356-0.8310126520227641/tmp.tgz
+22 verbose tar unpack /var/folders/3g/byx6f5p51l33cpb3s2118g_h0000gn/T/npm-75161-RVpK4CCR/1406613491356-0.8310126520227641/tmp.tgz
+23 silly lockFile d4080b4c-th-npm-color-model-0-1-0-package tar:///Users/hemanth/.npm/color-model/0.1.0/package
+24 verbose lock tar:///Users/hemanth/.npm/color-model/0.1.0/package /Users/hemanth/.npm/d4080b4c-th-npm-color-model-0-1-0-package.lock
+25 silly lockFile b37b714d-91356-0-8310126520227641-tmp-tgz tar:///var/folders/3g/byx6f5p51l33cpb3s2118g_h0000gn/T/npm-75161-RVpK4CCR/1406613491356-0.8310126520227641/tmp.tgz
+26 verbose lock tar:///var/folders/3g/byx6f5p51l33cpb3s2118g_h0000gn/T/npm-75161-RVpK4CCR/1406613491356-0.8310126520227641/tmp.tgz /Users/hemanth/.npm/b37b714d-91356-0-8310126520227641-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry index.js
+30 silly gunzTarPerm extractEntry readme.md
+31 silly lockFile d4080b4c-th-npm-color-model-0-1-0-package tar:///Users/hemanth/.npm/color-model/0.1.0/package
+32 silly lockFile d4080b4c-th-npm-color-model-0-1-0-package tar:///Users/hemanth/.npm/color-model/0.1.0/package
+33 silly lockFile b37b714d-91356-0-8310126520227641-tmp-tgz tar:///var/folders/3g/byx6f5p51l33cpb3s2118g_h0000gn/T/npm-75161-RVpK4CCR/1406613491356-0.8310126520227641/tmp.tgz
+34 silly lockFile b37b714d-91356-0-8310126520227641-tmp-tgz tar:///var/folders/3g/byx6f5p51l33cpb3s2118g_h0000gn/T/npm-75161-RVpK4CCR/1406613491356-0.8310126520227641/tmp.tgz
+35 silly lockFile 3a52ce78- .
+36 silly lockFile 3a52ce78- .
+37 silly publish { name: 'color-model',
+37 silly publish   version: '0.1.0',
+37 silly publish   description: 'Helper function to detect the color model (HEX, RGB, HSL).',
+37 silly publish   license: 'MIT',
+37 silly publish   repository: { type: 'git', url: 'git://github.com/hemanth/color-model' },
+37 silly publish   author:
+37 silly publish    { name: 'Hemanth.HM',
+37 silly publish      email: 'hemanth.hm@gmail.com',
+37 silly publish      url: 'http://h3manth.com' },
+37 silly publish   engines: { node: '>=0.10.0' },
+37 silly publish   scripts:
+37 silly publish    { test: 'mocha',
+37 silly publish      browser: 'browserify -s $npm_package_name -o browser.js .' },
+37 silly publish   files: [ 'index.js' ],
+37 silly publish   keywords: [ 'type', 'detect', 'check', 'is', 'color', 'hex', 'rgb', 'hsl' ],
+37 silly publish   devDependencies: { browserify: '^3.0.0', mocha: '*' },
+37 silly publish   readme: '# is-mp3 [![Build Status](https://travis-ci.org/hemanth/is-keyword.svg?branch=master)](https://travis-ci.org/hemanth/is-keyword)\n\n> Checks if the given token is an ES keyword.\n\n## Install\n\n```sh\n$ npm install --save is-keyword\n```\n\n```sh\n$ bower install --save is-keyword\n```\n\n```sh\n$ component install hemanth/is-keyword\n```\n\n\n## Usage\n\n##### Node.js\n\n```js\nvar isKeyword = require(\'is-keyword\');\nisKeyword(\'let\');\n//=> true\n```\n\n## License\n\nMIT © [Hemanth.HM](http://h3manth.com)\n',
+37 silly publish   readmeFilename: 'readme.md',
+37 silly publish   bugs: { url: 'https://github.com/hemanth/color-model/issues' },
+37 silly publish   homepage: 'https://github.com/hemanth/color-model',
+37 silly publish   _id: 'color-model@0.1.0',
+37 silly publish   _shasum: '72bd8c93cb466cc472d0fefb89c3890bc18ac08c',
+37 silly publish   _from: '.' }
+38 verbose url raw color-model
+39 verbose url resolving [ 'http://registry.npmjs.org/', './color-model' ]
+40 verbose url resolved http://registry.npmjs.org/color-model
+41 info trying registry request attempt 1 at 11:28:11
+42 http PUT http://registry.npmjs.org/color-model
+43 http 403 http://registry.npmjs.org/color-model
+44 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+44 verbose headers   'content-type': 'application/json',
+44 verbose headers   'cache-control': 'max-age=60',
+44 verbose headers   'content-length': '2023',
+44 verbose headers   'accept-ranges': 'bytes',
+44 verbose headers   date: 'Tue, 29 Jul 2014 05:58:11 GMT',
+44 verbose headers   via: '1.1 varnish',
+44 verbose headers   connection: 'close',
+44 verbose headers   'x-served-by': 'cache-lax1420-LAX',
+44 verbose headers   'x-cache': 'MISS',
+44 verbose headers   'x-cache-hits': '0',
+44 verbose headers   'x-timer': 'S1406613491.233364,VS0,VE135' }
+45 error publish Failed PUT 403
+46 error Error: forbidden user: hemanth not authorized to modify color-model
+46 error Changed: description "Operate colors in popular color models and convert between them" -> "Helper function to detect the color model (HEX, RGB, HSL)."
+46 error Changed: dist-tags.latest "0.2.1" -> "0.1.0"
+46 error Added: versions.0.1.0
+46 error Changed: readme "ERROR: No README data found!" -> "# is-mp3 [![Build Status](https://travis-ci.org/hemanth/is-keyword.svg?branch=master)](https://travis-ci.org/hemanth/is-keyword)\u000a\u000a> Checks if the given token is an ES keyword.\u000a\u000a## Install\u000a\u000a```sh\u000a$ npm install --save is-keyword\u000a```\u000a\u000a```sh\u000a$ bower install --save is-keyword\u000a```\u000a\u000a```sh\u000a$ component install hemanth/is-keyword\u000a```\u000a\u000a\u000a## Usage\u000a\u000a##### Node.js\u000a\u000a```js\u000avar isKeyword = require('is-keyword');\u000aisKeyword('let');\u000a//=> true\u000a```\u000a\u000a## License\u000a\u000aMIT © [Hemanth.HM](http://h3manth.com)\u000a"
+46 error Changed: time.modified "2014-03-17T17:37:25.009Z" -> "2014-07-29T05:57:10.279Z"
+46 error Added: time.0.1.0
+46 error Changed: homepage "https://github.com/garex/nodejs-color-model" -> "https://github.com/hemanth/color-model"
+46 error Changed: keywords.0 "color" -> "type"
+46 error Changed: keywords.1 "model" -> "detect"
+46 error Changed: keywords.2 "convert" -> "check"
+46 error Changed: keywords.3 "rgb" -> "is"
+46 error Changed: keywords.4 "xyz" -> "color"
+46 error Changed: keywords.6 "hsv" -> "rgb"
+46 error Changed: keywords.7 "lab" -> "hsl"
+46 error Changed: repository.url "git://github.com/garex/nodejs-color-model.git" -> "git://github.com/hemanth/color-model"
+46 error Changed: author.name "Alexander Ustimenko" -> "Hemanth.HM"
+46 error Changed: author.email "a@ustimen.co" -> "hemanth.hm@gmail.com"
+46 error Added: author.url
+46 error Changed: bugs.url "https://github.com/garex/nodejs-color-model/issues" -> "https://github.com/hemanth/color-model/issues"
+46 error Changed: readmeFilename "" -> "readme.md"
+46 error Added: _attachments: color-model
+46 error     at RegClient.<anonymous> (/Users/hemanth/.nvm/v0.11.13/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+46 error     at Request._callback (/Users/hemanth/.nvm/v0.11.13/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+46 error     at Request.self.callback (/Users/hemanth/.nvm/v0.11.13/lib/node_modules/npm/node_modules/request/request.js:123:22)
+46 error     at Request.EventEmitter.emit (events.js:110:17)
+46 error     at Request.<anonymous> (/Users/hemanth/.nvm/v0.11.13/lib/node_modules/npm/node_modules/request/request.js:893:14)
+46 error     at Request.EventEmitter.emit (events.js:129:20)
+46 error     at IncomingMessage.<anonymous> (/Users/hemanth/.nvm/v0.11.13/lib/node_modules/npm/node_modules/request/request.js:844:12)
+46 error     at IncomingMessage.EventEmitter.emit (events.js:129:20)
+46 error     at _stream_readable.js:898:16
+46 error     at process._tickCallback (node.js:343:11)
+47 error If you need help, you may report this *entire* log,
+47 error including the npm and node versions, at:
+47 error     <http://github.com/npm/npm/issues>
+48 error System Darwin 13.0.0
+49 error command "/Users/hemanth/.nvm/v0.11.13/bin/node" "/Users/hemanth/.nvm/v0.11.13/bin/npm" "publish"
+50 error cwd /Users/hemanth/labs/npm/color-model
+51 error node -v v0.11.13
+52 error npm -v 1.4.9
+53 verbose exit [ 1, true ]

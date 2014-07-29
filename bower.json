@@ -1,0 +1,28 @@
+{
+  "name": "color-type",
+  "description": "Helper function to detect the color type/model (HEX, RGB, HSL).",
+  "license": "MIT",
+  "main": "browser.js",
+  "authors": [{
+    "name": "Hemanth.HM",
+    "email": "hemath.hm@gmail.com",
+    "url": "http://h3manth.com"
+  }],
+  "keywords": [
+    "type",
+    "detect",
+    "check",
+    "is",
+    "color",
+    "hex",
+    "rgb",
+    "hsl"
+  ],
+  "ignore": [
+    ".*",
+    "test.js",
+    "component.json",
+    "package.json",
+    "fixture*"
+  ]
+}

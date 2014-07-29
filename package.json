@@ -1,0 +1,38 @@
+{
+  "name": "color-type",
+  "version": "0.1.0",
+  "description": "Helper function to detect the color type/model (HEX, RGB, HSL).
+",
+  "license": "MIT",
+  "repository": "hemanth/color-type",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "http://h3manth.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "browser": "browserify -s $npm_package_name -o browser.js ."
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "type",
+    "detect",
+    "check",
+    "is",
+    "color",
+    "hex",
+    "rgb",
+    "hsl"
+  ],
+  "devDependencies": {
+    "browserify": "^3.0.0",
+    "mocha": "*",
+    "read-chunk": "^0.1.0"
+  }
+}

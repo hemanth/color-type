@@ -1,0 +1,20 @@
+{
+  "name": "color-model",
+  "version": "0.1.0",
+  "description": "Helper function to detect the color type/model (HEX, RGB, HSL).",
+  "license": "MIT",
+  "repository": "hemanth/color-model",
+  "scripts": [
+    "index.js"
+  ],
+  "keywords": [
+    "type",
+    "detect",
+    "check",
+    "is",
+    "color",
+    "hex",
+    "rgb",
+    "hsl"
+  ]
+}
