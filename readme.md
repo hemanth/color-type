@@ -24,6 +24,14 @@ $ component install hemanth/color-type
 ```js
 var ct = require('color-type');
 
+cm.is('rgb(255,255,255)'); //'rgb'
+cm.is('#FFF'); // 'hex'
+cm.is('hsl(0,100%, 50%)'); // 'hsl'
+
+cm.isHSL('hsl(0,100%, 50%)'); // true
+cm.isRGB('rgb(255,255,255)'); // true
+cm.isHEX('#FFF'); // true
+
 ```
 
 ## License
